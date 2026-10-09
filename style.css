@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.sidebar-nav{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.dashboard *, .main-interactions *:not(div), .support-interactions *:not(div){
+    display:inline-block;
+}
