@@ -4,16 +4,32 @@
     box-sizing: border-box;
 }
 
-.main-container{
+body{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
 
-.sidebar-nav{
+/* SIDEBAR NAV */
+
+aside{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: minmax(min-content, 100px) minmax(min-content, 300px) minmax(min-content, 100px);
 }
 
-.dashboard *, .main-interactions *:not(div), .support-interactions *:not(div){
-    display:inline-block;
+aside * > * h2, h1{
+    display: inline-block;
+}
+
+aside > * {
+    display: grid;
+}
+
+a{
+    cursor:pointer;
+}
+/* MAIN CONTENT */
+
+.container-top img{
+    width: 50px;
+    height: 50px;
 }
