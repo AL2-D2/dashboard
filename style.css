@@ -18,6 +18,15 @@ aside{
 
 aside * > * h2, h1{
     display: inline-block;
+    margin-left: 15px;    
+}
+
+.dashboard h1{
+    font-size: 1.9rem;
+}
+
+.main-navs * h2, .support-navs * h2{
+    font-size: 1.4rem;
 }
 
 aside > * {
@@ -26,7 +35,10 @@ aside > * {
 
 a{
     cursor:pointer;
+    text-decoration: none;    
 }
+
+
 /* MAIN CONTENT */
 
 .container-top img{
