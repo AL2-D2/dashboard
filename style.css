@@ -14,11 +14,25 @@ body{
 aside{
     display: grid;
     grid-template-rows: minmax(min-content, 100px) minmax(min-content, 300px) minmax(min-content, 100px);
+    
 }
 
 aside * > * h2, h1{
     display: inline-block;
-    margin-left: 15px;    
+    margin-left: 13px;    
+}
+
+aside * svg:not(.dashboard svg){
+    width: 25px;
+    top: 0.30rem;
+}
+
+.dashboard svg{
+    top: 0.65rem;
+}
+
+aside * svg{
+    position: relative;    
 }
 
 .dashboard h1{
@@ -30,7 +44,7 @@ aside * > * h2, h1{
 }
 
 aside > * {
-    display: grid;
+    display: grid;    
 }
 
 a{
