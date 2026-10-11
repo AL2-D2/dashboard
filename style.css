@@ -82,32 +82,44 @@ main {
     border-radius: 50%;
 }
 
-.container-top{
-    display:grid;
-    grid-template-columns: 2fr 1fr;
-     margin-top: 10px;
+.container-top {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 10px;
 }
 
-.search-bar-container{
-    width: 75%;
+.search-bar-container {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
 
-.search-bar-container input{    
+.search-bar-container input {
     width: min(70%, 550px);
     border: none;
     background-color: var(--input-color);
     border-radius: 15px;
-    padding: 7px;        
+    padding: 7px;
 }
 
-.search-icon{
+.search-icon {
     position: relative;
     top: 0.2rem;
     margin-right: 15px;
 }
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.profile-container span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 /* MAIN CONTENT */
 
 a {
