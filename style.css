@@ -32,6 +32,7 @@ h3 {
 .project-card,
 .profile-card {
     border-radius: 10px;
+    box-shadow: 5px 5px 10px 0 rgba(213, 213, 213, 0.333);
 }
 
 /* SIDEBAR NAV */
@@ -92,7 +93,7 @@ aside a {
 
 main {
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 6fr;
 }
 
 /* top container */
@@ -208,7 +209,7 @@ main {
 /* projects */
 
 .projects-container {
-    grid-row: 1/-1;
+    grid-row: 1/-1;        
 }
 
 .projects {
@@ -222,8 +223,7 @@ main {
     display: grid;
     align-items: center;
     background-color: #fff;
-    border-left: 10px solid rgba(255, 166, 0, 0.81);
-    box-shadow: 5px 5px 10px 0 rgba(213, 213, 213, 0.333);
+    border-left: 10px solid rgba(255, 166, 0, 0.81);    
     padding: 15px;
 }
 
@@ -253,5 +253,17 @@ main {
 
 .announcement-card {
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.announcement h5{
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.announcement-card hr{
+    border-color: rgba(128, 128, 128, 0.253);
 }
