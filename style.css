@@ -232,7 +232,7 @@ main {
     align-items: center;
     background-color: #fff;
     border-left: 10px solid rgba(255, 166, 0, 0.81);
-
+    grid-template-rows: 5fr 1fr;
 }
 
 .project-buttons {
