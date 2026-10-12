@@ -1,13 +1,24 @@
+@font-face {
+    font-family: 'Creato Display';
+    src: url('Fonts/transfonter-20261012-192517/CreatoDisplay-Regular.woff') format('woff2'),
+        url('Fonts/transfonter-20261012-192517/CreatoDisplay-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Creato Display';
 }
 
 :root {
     --navbar-background-color: rgba(0, 147, 220, 0.953);
     --secondary-color: rgba(182, 206, 226, 0.379);
-    --transculent-text-color: #000000aa;
+    --transculent-text-color: #000000aa;    
 }
 
 body {
