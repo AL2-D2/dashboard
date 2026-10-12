@@ -18,7 +18,7 @@
 :root {
     --navbar-background-color: rgba(0, 147, 220, 0.953);
     --secondary-color: rgba(182, 206, 226, 0.379);
-    --transculent-text-color: #000000aa;    
+    --transculent-text-color: #000000aa;
 }
 
 body {
@@ -58,6 +58,12 @@ h3 {
 p,
 .profile-bio {
     color: var(--transculent-text-color);
+}
+
+.project-card h4,
+.announcement h5,
+.trending-profile-names span:nth-child(1) {
+    line-height: 1.4rem;
 }
 
 /* SIDEBAR NAV */
